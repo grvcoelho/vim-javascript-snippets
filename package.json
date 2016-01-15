@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Javascript & Node.js snippets for Vim",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grvcoelho/vim-javascript-snippets.git"
