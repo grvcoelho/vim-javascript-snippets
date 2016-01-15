@@ -1,0 +1,19 @@
+{
+  "name": "vim-javascript-snippets",
+  "version": "1.0.0",
+  "description": "Javascript & Node.js snippets for Vim",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grvcoelho/vim-javascript-snippets.git"
+  },
+  "author": "@grvcoelho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grvcoelho/vim-javascript-snippets/issues"
+  },
+  "homepage": "https://github.com/grvcoelho/vim-javascript-snippets#readme"
+}
