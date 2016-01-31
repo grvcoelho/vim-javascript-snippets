@@ -11,6 +11,43 @@ You need [vim-snipmate](https://github.com/garbas/vim-snipmate) installed. You c
 Plug 'grvcoelho/vim-javascript-snippets'
 ```
 
+## Console
+
+### [cd] console.dir
+
+```javascript
+console.dir(${1:obj});
+```
+
+### [ce] console.error
+
+```javascript
+console.error(${1:obj});
+```
+
+### [ci] console.info
+
+```javascript
+console.info(${1:obj});
+```
+
+### [cl] console.log
+
+```javascript
+console.log(${1:obj});
+```
+
+### [cw] console.warn
+
+```javascript
+console.warn(${1:obj});
+```
+
+### [de] debugger
+
+```javascript
+debugger;
+```
 
 ## License
 [MIT](https://github.com/grvcoelho/pagarme-node/blob/master/LICENSE) &copy; 2016
