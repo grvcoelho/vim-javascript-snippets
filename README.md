@@ -49,5 +49,66 @@ console.warn(${1:obj});
 debugger;
 ```
 
+## Flow
+
+### [if] if
+
+```javascript
+if (${1:condition}) {
+	${0}
+}
+```
+
+### [ife] if else
+```javascript
+if (${1:condition}) {
+	${2}
+} else {
+	${3}
+}
+```
+
+### [ifei] if else if
+
+```javascript
+if (${1:condition}) {
+	${2}
+} else if (${3:condition}) {
+	${0}
+}
+```
+
+### [tc] try catch
+
+```javascript
+try {
+	${1}
+} catch (${2:err}) {
+	${0}
+}
+```
+
+### [tf] try finally
+
+```javascript
+try {
+	${1}
+} finally {
+	${0}
+}
+```
+
+### [tcf] try catch finally
+
+```javascript
+try {
+	${1}
+} catch (${2:err}) {
+	${3}
+} finally {
+	${0}
+}
+```
+
 ## License
 [MIT](https://github.com/grvcoelho/pagarme-node/blob/master/LICENSE) &copy; 2016
