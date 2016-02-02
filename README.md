@@ -49,6 +49,99 @@ console.warn(${1:obj});
 debugger;
 ```
 
+## DOM
+
+### [ae] addEventListener
+
+```javascript
+${1:document}.addEventListener('${2:event}', ${3:function});
+```
+
+### [ac] appendChild
+```javascript
+${1:document}.appendChild(${2:elem});
+```
+
+### [rc] removeChild
+```javascript
+${1:document}.removeChild(${2:elem});
+```
+
+### [cel] createElement
+```javascript
+${1:document}.createElement(${2:elem});
+```
+
+### [cdf] createDocumentFragment
+```javascript
+${1:document}.createDocumentFragment(${2:elem});
+```
+
+### [ca] classList.add
+```javascript
+${1:document}.classList.add('${2:class}');
+```
+
+### [ct] classList.toggle
+```javascript
+${1:document}.classList.toggle('${2:class}');
+```
+
+### [cr] classList.remove
+```javascript
+${1:document}.classList.remove('${2:class}');
+```
+
+### [gi] getElementById
+```javascript
+${1:document}.getElementById('${2:id}');
+```
+
+### [gc] getElementsByClassName
+```javascript
+${1:document}.getElementsByClassName('${2:class}');
+```
+
+### [gt] getElementsByTagName
+```javascript
+${1:document}.getElementsByTagName('${2:tag}');
+```
+
+### [ga] getAttribute
+```javascript
+${1:document}.getAttribute('${2:attr}');
+```
+
+### [sa] setAttribute
+```javascript
+${1:document}.setAttribute('${2:attr}', ${3:value});
+```
+
+### [ra] removeAttribute
+```javascript
+${1:document}.removeAttribute('${2:attr}');
+```
+
+### [ih] innerHTML
+```javascript
+${1:document}.innerHTML = '${2:elem}';
+```
+
+### [tc] textContent
+```javascript
+${1:document}.textContent = '${2:content}';
+```
+
+### [qs] querySelector
+```javascript
+${1:document}.querySelector('${2:selector}');
+```
+
+### [qsa] querySelectorAll
+```javascript
+${1:document}.querySelectorAll('${2:selector}');
+```
+
 ## Flow
 
 ### [if] if
@@ -112,3 +205,4 @@ try {
 
 ## License
 [MIT](https://github.com/grvcoelho/pagarme-node/blob/master/LICENSE) &copy; 2016
+
