@@ -203,6 +203,46 @@ try {
 }
 ```
 
+## Flow
+
+### [for] for
+```javascript
+for (let i = 0; i < ${1:length}; i++) {
+	${0}
+}
+```
+
+### [forin] for in
+```javascript
+for (${1:prop} in ${2:obj}) {
+	if (${2:obj}.hasOwnProperty(${1:prop})) {
+		${0}
+	}
+}
+```
+
+### [forof] for of
+```javascript
+for (let ${1:elem} of ${2:obj}) {
+	${0}
+}
+```
+
+### [foreach] forEach
+```javascript
+${1:array}.forEach((${2:item}) => {
+	${0}
+});
+```
+
+### [while] while
+```javascript
+while (${1:condition}) {
+	${0}
+}
+```
+
+
 ## License
 [MIT](https://github.com/grvcoelho/pagarme-node/blob/master/LICENSE) &copy; 2016
 
