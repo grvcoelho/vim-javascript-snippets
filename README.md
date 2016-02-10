@@ -173,6 +173,16 @@ if (${1:condition}) {
 }
 ```
 
+### [switch] switch
+
+```javascript
+switch (${1:condition}) {
+	case ${2:'case'}:
+		${3}
+	${0}
+}
+```
+
 ### [tc] try catch
 
 ```javascript
