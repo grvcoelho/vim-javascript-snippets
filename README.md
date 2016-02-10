@@ -177,9 +177,8 @@ if (${1:condition}) {
 
 ```javascript
 switch (${1:condition}) {
-	case ${2:'case'}:
-		${3}
-	${0}
+	case ${2:when}:
+		${0}
 }
 ```
 
