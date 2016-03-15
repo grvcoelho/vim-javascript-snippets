@@ -18,37 +18,37 @@ Plug 'grvcoelho/vim-javascript-snippets'
 ### [cd] console.dir
 
 ```javascript
-console.dir(${1:obj});
+console.dir(${1:obj})
 ```
 
 ### [ce] console.error
 
 ```javascript
-console.error(${1:obj});
+console.error(${1:obj})
 ```
 
 ### [ci] console.info
 
 ```javascript
-console.info(${1:obj});
+console.info(${1:obj})
 ```
 
 ### [cl] console.log
 
 ```javascript
-console.log(${1:obj});
+console.log(${1:obj})
 ```
 
 ### [cw] console.warn
 
 ```javascript
-console.warn(${1:obj});
+console.warn(${1:obj})
 ```
 
 ### [de] debugger
 
 ```javascript
-debugger;
+debugger
 ```
 
 ## DOM
@@ -56,92 +56,92 @@ debugger;
 ### [ae] addEventListener
 
 ```javascript
-${1:document}.addEventListener('${2:event}', ${3:function});
+${1:document}.addEventListener('${2:event}', ${3:function})
 ```
 
 ### [ac] appendChild
 ```javascript
-${1:document}.appendChild(${2:elem});
+${1:document}.appendChild(${2:elem})
 ```
 
 ### [rc] removeChild
 ```javascript
-${1:document}.removeChild(${2:elem});
+${1:document}.removeChild(${2:elem})
 ```
 
 ### [cel] createElement
 ```javascript
-${1:document}.createElement(${2:elem});
+${1:document}.createElement(${2:elem})
 ```
 
 ### [cdf] createDocumentFragment
 ```javascript
-${1:document}.createDocumentFragment(${2:elem});
+${1:document}.createDocumentFragment(${2:elem})
 ```
 
 ### [ca] classList.add
 ```javascript
-${1:document}.classList.add('${2:class}');
+${1:document}.classList.add('${2:class}')
 ```
 
 ### [ct] classList.toggle
 ```javascript
-${1:document}.classList.toggle('${2:class}');
+${1:document}.classList.toggle('${2:class}')
 ```
 
 ### [cr] classList.remove
 ```javascript
-${1:document}.classList.remove('${2:class}');
+${1:document}.classList.remove('${2:class}')
 ```
 
 ### [gi] getElementById
 ```javascript
-${1:document}.getElementById('${2:id}');
+${1:document}.getElementById('${2:id}')
 ```
 
 ### [gc] getElementsByClassName
 ```javascript
-${1:document}.getElementsByClassName('${2:class}');
+${1:document}.getElementsByClassName('${2:class}')
 ```
 
 ### [gt] getElementsByTagName
 ```javascript
-${1:document}.getElementsByTagName('${2:tag}');
+${1:document}.getElementsByTagName('${2:tag}')
 ```
 
 ### [ga] getAttribute
 ```javascript
-${1:document}.getAttribute('${2:attr}');
+${1:document}.getAttribute('${2:attr}')
 ```
 
 ### [sa] setAttribute
 ```javascript
-${1:document}.setAttribute('${2:attr}', ${3:value});
+${1:document}.setAttribute('${2:attr}', ${3:value})
 ```
 
 ### [ra] removeAttribute
 ```javascript
-${1:document}.removeAttribute('${2:attr}');
+${1:document}.removeAttribute('${2:attr}')
 ```
 
 ### [ih] innerHTML
 ```javascript
-${1:document}.innerHTML = '${2:elem}';
+${1:document}.innerHTML = '${2:elem}'
 ```
 
 ### [tc] textContent
 ```javascript
-${1:document}.textContent = '${2:content}';
+${1:document}.textContent = '${2:content}'
 ```
 
 ### [qs] querySelector
 ```javascript
-${1:document}.querySelector('${2:selector}');
+${1:document}.querySelector('${2:selector}')
 ```
 
 ### [qsa] querySelectorAll
 ```javascript
-${1:document}.querySelectorAll('${2:selector}');
+${1:document}.querySelectorAll('${2:selector}')
 ```
 
 ## Flow
@@ -218,7 +218,7 @@ try {
 
 ### [for] for
 ```javascript
-for (let i = 0; i < ${1:length}; i++) {
+for (let i = 0 i < ${1:length} i++) {
 	${0}
 }
 ```
@@ -243,7 +243,7 @@ for (let ${1:elem} of ${2:obj}) {
 ```javascript
 ${1:array}.forEach((${2:item}) => {
 	${0}
-});
+})
 ```
 
 ### [while] while
