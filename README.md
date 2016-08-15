@@ -262,5 +262,5 @@ while (${1:condition}) {
 5. Submit a pull request :D
 
 ## License
-[MIT](https://github.com/grvcoelho/pagarme-node/blob/master/LICENSE) &copy; 2016
+[MIT](https://github.com/grvcoelho/vim-javascript-snippets/blob/master/LICENSE) &copy; 2016
 
