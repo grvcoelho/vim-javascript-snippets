@@ -214,7 +214,7 @@ try {
 }
 ```
 
-## Flow
+## Loop
 
 ### [for] for
 ```javascript
