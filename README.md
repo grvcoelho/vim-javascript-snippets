@@ -235,7 +235,7 @@ function (${1}) {
 ### [fgn] generator
 
 ```javascript
-function* ${1:name}(${2}) {
+function* ${1:name} (${2}) {
   ${3}
 }
 ```
