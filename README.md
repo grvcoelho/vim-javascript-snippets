@@ -301,6 +301,13 @@ while (${1:condition}) {
 }
 ```
 
+## Module
+
+### [imp] import
+```javascript
+import ${1:module} from '{2:path}'
+```
+
 ## Contributing
 
 1. Fork it!
