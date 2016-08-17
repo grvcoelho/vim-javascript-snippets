@@ -214,6 +214,54 @@ try {
 }
 ```
 
+## Function
+
+### [fn] function
+
+```javascript
+function ${1:name} (${2}) {
+  ${3}
+}
+```
+
+### [afn] anonymous function
+
+```javascript
+function (${1}) {
+  ${2}
+}
+```
+
+### [fgn] generator
+
+```javascript
+function* ${1:name}(${2}) {
+  ${3}
+}
+```
+
+### [afgn] anonymous generator
+
+```javascript
+function* (${1}) {
+  ${2}
+}
+```
+
+## JSON
+
+### [jp] json parse
+
+```javascript
+JSON.parse(${1:obj})
+```
+
+### [js] json stringify
+
+```javascript
+JSON.stringify(${1:obj})
+```
+
 ## Loop
 
 ### [for] for
