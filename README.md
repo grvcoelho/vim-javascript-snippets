@@ -248,6 +248,19 @@ function* (${1}) {
 }
 ```
 
+### [afe] arrow function (expression)
+
+```javascript
+(${1}) => ${2}
+```
+
+### [afb] arrow function (body)
+```javascript
+(${1}) => {
+  ${2}
+}
+```
+
 ## JSON
 
 ### [jp] json parse
