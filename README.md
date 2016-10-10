@@ -261,6 +261,18 @@ function* (${1}) {
 }
 ```
 
+## Variables
+
+### [const] const
+```
+const ${1} = ${0}
+```
+
+### [let] let
+```javascript
+let ${1} = ${0}
+```
+
 ## JSON
 
 ### [jp] json parse
@@ -311,6 +323,22 @@ ${1:array}.forEach((${2:item}) => {
 ```javascript
 while (${1:condition}) {
 	${0}
+}
+```
+
+## Class
+
+### [cla] class definition
+```javascript
+class ${1} {
+		${0}
+}
+```
+
+### [clex] class definition with extends 
+```javascript
+class ${1} extends ${2} {
+		${0}
 }
 ```
 
