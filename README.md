@@ -299,7 +299,7 @@ for (let i = 0 i < ${1:length} i++) {
 ### [forin] for in
 ```javascript
 for (${1:prop} in ${2:obj}) {
-	if (${2:obj}.hasOwnProperty(${1:prop})) {
+	if ($2.hasOwnProperty($1)) {
 		${0}
 	}
 }
